@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li a { 
+    color: black;
+}
+
+body {
+    height: 715px;
+    width: 100%;
+}
+
+.nav {
+    height: 100%;
+    width: 30%;
+    background-color:rgb(242, 246, 247);
+
+}
+
+.nav > span  > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left:110px;
+    margin-top:30px
+    
+}
+
+h2{
+    text-align: center;
+    margin:15px;
+}
+
+h4{
+    text-align: center;
+    margin: 15px;
+}
+
+ul li {
+    text-align: center;
+    margin: 8px;
+    font-family: monospace;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    transition: 700ms;
+}
+
+
+ul li:hover {
+    border-bottom: 3px solid skyblue;
+}
+
+
+
+strong {
+    color:lightskyblue;
+
+}
+
+li a {
+    border-bottom: 1px solid red;
+    color: #000;
+    transition: 700ms;
+    padding:0px 10px 10px 10px;
+    
+    
+  }
+
+ li a:hover {
+
+    color: rgb(95, 174, 205);
+ }
+
+
+p{
+    text-align: center;
+    color: gray;
+    margin: 20px;
+}
+
+.text {  
+    
+    position: absolute;
+    left: 500px;
+    top:230px
+
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+h3 { 
+    top: 420px;
+    font-size:25px;
+    font-family: "Courier New";
+    display: block;
+    transition: 700ms;
+    border-bottom: 2px solid transparent;
+    
+}
+
+h3:hover{
+    border-bottom: 2px solid lightblue;
+
+}
+
+.satauri >  img {
+    width: 70%;
+    height: 715px;
+    display: flex;
+    justify-content: center;
+    float: right;
+    background-size: cover;
+    
+}
+
+
+
+.box {
+    position: absolute;
+    border: 1px solid black;
+    left:500px;
+    top:450px;
+    
+}
